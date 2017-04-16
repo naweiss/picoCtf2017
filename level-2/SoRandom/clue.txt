@@ -1,0 +1,2 @@
+nc naweiss@NADAV:/mnt/c/Users/nadav/Desktop/pico/level-2/SoRandom$ nc shell2017.picoctf.com 33123
+Unguessably Randomized Flag: BNZQ:2m8807395d9os2156v70qu84sy1w2i6e

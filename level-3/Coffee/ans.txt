@@ -1,0 +1,9 @@
+The file is in java.
+Use intellij or eclips to find the code.
+Run the code and find th flag.
+
+Change the content of the main, from:
+System.out.println("Nothing to see here");
+
+To:
+System.out.println(get_flag());

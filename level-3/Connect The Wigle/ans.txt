@@ -1,0 +1,7 @@
+Use this site to open sqlite files:
+http://inloop.github.io/sqlite-viewer/
+
+filter only lat and lon, and use this site:
+http://www.copypastemap.com/index.html
+
+The flag is: flag{f0und_m3_ee263b5f}

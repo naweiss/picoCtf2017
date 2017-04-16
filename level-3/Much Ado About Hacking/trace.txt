@@ -1,0 +1,599 @@
+
+Beatrice just entered
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Don John just entered
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John on stage
+            Achilles
+           Cleopatra
+
+Don John's previous value was 0.
+Don John's new value is 0.
+
+Don John just exited
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Don Pedro just entered
+            Benedick
+            Beatrice on stage
+           Don Pedro on stage
+            Don John
+            Achilles
+           Cleopatra
+
+Don Pedro's previous value was 0.
+Don Pedro's new value is 0.
+
+Don Pedro just exited
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Achilles just entered
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles on stage
+           Cleopatra
+
+Achilles's previous value was 0.
+Achilles's new value is 32.
+
+Achilles just exited
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Cleopatra just entered
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra on stage
+
+Computing int_sub(128, 32) = 96
+
+Cleopatra's previous value was 0.
+Cleopatra's new value is 96.
+
+Cleopatra just exited
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Benedick just entered
+            Benedick on stage
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Benedick's previous value was 0.
+Benedick's new value is 0.
+
+Benedick read the character a (ascii code 97)
+
+Pushing 97 onto Benedick
+Benedick's stack is now: 97
+
+Computing int_add(0, 1) = 1
+
+Beatrice's previous value was 0.
+Beatrice's new value is 1.
+
+Benedick read the character 
+ (ascii code 10)
+
+Pushing 10 onto Benedick
+Benedick's stack is now: 10 97
+
+Computing int_add(1, 1) = 2
+
+Beatrice's previous value was 1.
+Beatrice's new value is 2.
+
+Benedick read the character a (ascii code 97)
+
+Pushing 97 onto Benedick
+Benedick's stack is now: 97 10 97
+
+Computing int_add(2, 1) = 3
+
+Beatrice's previous value was 2.
+Beatrice's new value is 3.
+
+Benedick read the character 
+ (ascii code 10)
+
+Pushing 10 onto Benedick
+Benedick's stack is now: 10 97 10 97
+
+Computing int_add(3, 1) = 4
+
+Beatrice's previous value was 3.
+Beatrice's new value is 4.
+
+Benedick read the character   (ascii code 32)
+
+Pushing 32 onto Benedick
+Benedick's stack is now: 32 10 97 10 97
+
+Computing int_add(4, 1) = 5
+
+Beatrice's previous value was 4.
+Beatrice's new value is 5.
+
+Computing int_add(5, -1) = 4
+
+Beatrice's previous value was 5.
+Beatrice's new value is 4.
+
+Popping Benedick, getting the value 32
+Benedick's stack is now: 10 97 10 97
+
+Popping Benedick, getting the value 10
+Benedick's stack is now: 97 10 97
+
+Computing int_sub(10, 32) = -22
+
+Benedick's previous value was 10.
+Benedick's new value is -22.
+
+Computing int_add(4, -1) = 3
+
+Beatrice's previous value was 4.
+Beatrice's new value is 3.
+
+Beatrice just exited
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Don John just entered
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John on stage
+            Achilles
+           Cleopatra
+
+Don John's previous value was 0.
+Don John's new value is -22.
+
+Don John just exited
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Don Pedro just entered
+            Benedick on stage
+            Beatrice
+           Don Pedro on stage
+            Don John
+            Achilles
+           Cleopatra
+
+Computing int_add(-22, 0) = -22
+
+Benedick's previous value was -22.
+Benedick's new value is -22.
+
+Computing int_mod(-22, 96) = -22
+
+Benedick's previous value was -22.
+Benedick's new value is -22.
+
+Benedick just exited
+            Benedick
+            Beatrice
+           Don Pedro on stage
+            Don John
+            Achilles
+           Cleopatra
+
+Don John just entered
+            Benedick
+            Beatrice
+           Don Pedro on stage
+            Don John on stage
+            Achilles
+           Cleopatra
+
+Don Pedro's previous value was 0.
+Don Pedro's new value is -22.
+
+Everybody just exeunted
+            Benedick
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Beatrice just entered
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Benedick just entered
+            Benedick on stage
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Computing int_add(-22, 32) = 10
+
+Benedick's previous value was -22.
+Benedick's new value is 10.
+
+
+Benedick wrote the character 
+ (ascii code 10)
+
+Popping Benedick, getting the value 97
+Benedick's stack is now: 10 97
+
+Computing int_sub(97, 32) = 65
+
+Benedick's previous value was 97.
+Benedick's new value is 65.
+
+Computing int_add(3, -1) = 2
+
+Beatrice's previous value was 3.
+Beatrice's new value is 2.
+
+Beatrice just exited
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Don John just entered
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John on stage
+            Achilles
+           Cleopatra
+
+Don John's previous value was -22.
+Don John's new value is 65.
+
+Don John just exited
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Don Pedro just entered
+            Benedick on stage
+            Beatrice
+           Don Pedro on stage
+            Don John
+            Achilles
+           Cleopatra
+
+Computing int_add(65, -22) = 43
+
+Benedick's previous value was 65.
+Benedick's new value is 43.
+
+Computing int_mod(43, 96) = 43
+
+Benedick's previous value was 43.
+Benedick's new value is 43.
+
+Benedick just exited
+            Benedick
+            Beatrice
+           Don Pedro on stage
+            Don John
+            Achilles
+           Cleopatra
+
+Don John just entered
+            Benedick
+            Beatrice
+           Don Pedro on stage
+            Don John on stage
+            Achilles
+           Cleopatra
+
+Don Pedro's previous value was -22.
+Don Pedro's new value is 65.
+
+Everybody just exeunted
+            Benedick
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Beatrice just entered
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Benedick just entered
+            Benedick on stage
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Computing int_add(43, 32) = 75
+
+Benedick's previous value was 43.
+Benedick's new value is 75.
+K
+Benedick wrote the character K (ascii code 75)
+
+Popping Benedick, getting the value 10
+Benedick's stack is now: 97
+
+Computing int_sub(10, 32) = -22
+
+Benedick's previous value was 10.
+Benedick's new value is -22.
+
+Computing int_add(2, -1) = 1
+
+Beatrice's previous value was 2.
+Beatrice's new value is 1.
+
+Beatrice just exited
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Don John just entered
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John on stage
+            Achilles
+           Cleopatra
+
+Don John's previous value was 65.
+Don John's new value is -22.
+
+Don John just exited
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Don Pedro just entered
+            Benedick on stage
+            Beatrice
+           Don Pedro on stage
+            Don John
+            Achilles
+           Cleopatra
+
+Computing int_add(-22, 65) = 43
+
+Benedick's previous value was -22.
+Benedick's new value is 43.
+
+Computing int_mod(43, 96) = 43
+
+Benedick's previous value was 43.
+Benedick's new value is 43.
+
+Benedick just exited
+            Benedick
+            Beatrice
+           Don Pedro on stage
+            Don John
+            Achilles
+           Cleopatra
+
+Don John just entered
+            Benedick
+            Beatrice
+           Don Pedro on stage
+            Don John on stage
+            Achilles
+           Cleopatra
+
+Don Pedro's previous value was 65.
+Don Pedro's new value is -22.
+
+Everybody just exeunted
+            Benedick
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Beatrice just entered
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Benedick just entered
+            Benedick on stage
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Computing int_add(43, 32) = 75
+
+Benedick's previous value was 43.
+Benedick's new value is 75.
+K
+Benedick wrote the character K (ascii code 75)
+
+Popping Benedick, getting the value 97
+Benedick's stack is now:
+
+Computing int_sub(97, 32) = 65
+
+Benedick's previous value was 97.
+Benedick's new value is 65.
+
+Computing int_add(1, -1) = 0
+
+Beatrice's previous value was 1.
+Beatrice's new value is 0.
+
+Beatrice just exited
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Don John just entered
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John on stage
+            Achilles
+           Cleopatra
+
+Don John's previous value was -22.
+Don John's new value is 65.
+
+Don John just exited
+            Benedick on stage
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Don Pedro just entered
+            Benedick on stage
+            Beatrice
+           Don Pedro on stage
+            Don John
+            Achilles
+           Cleopatra
+
+Computing int_add(65, -22) = 43
+
+Benedick's previous value was 65.
+Benedick's new value is 43.
+
+Computing int_mod(43, 96) = 43
+
+Benedick's previous value was 43.
+Benedick's new value is 43.
+
+Benedick just exited
+            Benedick
+            Beatrice
+           Don Pedro on stage
+            Don John
+            Achilles
+           Cleopatra
+
+Don John just entered
+            Benedick
+            Beatrice
+           Don Pedro on stage
+            Don John on stage
+            Achilles
+           Cleopatra
+
+Don Pedro's previous value was -22.
+Don Pedro's new value is 65.
+
+Everybody just exeunted
+            Benedick
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Beatrice just entered
+            Benedick
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Benedick just entered
+            Benedick on stage
+            Beatrice on stage
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra
+
+Computing int_add(43, 32) = 75
+
+Benedick's previous value was 43.
+Benedick's new value is 75.
+K
+Benedick wrote the character K (ascii code 75)
+
+Everybody just exeunted
+            Benedick
+            Beatrice
+           Don Pedro
+            Don John
+            Achilles
+           Cleopatra

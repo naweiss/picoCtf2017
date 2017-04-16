@@ -1,0 +1,5 @@
+naweiss@NADAV:/mnt/c/Users/nadav/Desktop/pico/level-1/Leaf of the Forest$ find "$PWD"/ -iname 'flag'
+/mnt/c/Users/nadav/Desktop/pico/level-1/Leaf of the Forest/forest/treefced1e/trunka090/trunk957d/trunk6de6/trunke68e/trunkf287/trunk070b/trunke47a/branch4c77/flag
+naweiss@NADAV:/mnt/c/Users/nadav/Desktop/pico/level-1/Leaf of the Forest$ cat /mnt/c/Users/nadav/Desktop/pico/level-1/Leaf\ of\ the\ Forest/forest/treefced1e/trunka090/trunk957d/trunk6de6/trunke68e/trunkf287/trunk070b/trunke47a/br
+anch4c77/flag
+b51adfb58ec99a8c81db853c7acdd7bdn

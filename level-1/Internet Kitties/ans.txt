@@ -1,0 +1,4 @@
+naweiss@shell-web:~/tmp/problems/ec9da1496f80c8248197ba564097cebb$ nc shell2017.picoctf.com 28669
+Yay! You made it!
+Take a flag!
+648defaaba45452729b7179f0603df05

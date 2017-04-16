@@ -1,0 +1,6 @@
+By looking in the packets you can find the foolwing user agent:
+
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+
+The right one is:
+Chrome/36.0.1985.67

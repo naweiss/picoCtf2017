@@ -1,0 +1,9 @@
+You can see that the background image is in:
+http://shell2017.picoctf.com:30027/private/image.png
+So, navigate to:
+http://shell2017.picoctf.com:30027/private/cookies.sqlite
+to find the cookies file.
+
+Use http://inloop.github.io/sqlite-viewer/ to view his content.
+
+Edit you cookies and you will find th flag.

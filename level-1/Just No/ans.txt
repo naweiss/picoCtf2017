@@ -1,0 +1,10 @@
+naweiss@shell-web:/problems/ec9da1496f80c8248197ba564097cebb$ mkdir ~/tmp/
+naweiss@shell-web:/problems/ec9da1496f80c8248197ba564097cebb$ mkdir ~/tmp/problems/
+naweiss@shell-web:/problems/ec9da1496f80c8248197ba564097cebb$ mkdir ~/tmp/problems/ec9da1496f80c8248197ba564097cebb/
+naweiss@shell-web:/problems/ec9da1496f80c8248197ba564097cebb$ echo "Yes" > ~/tmp/problems/ec9da1496f80c8248197ba564097cebb/auth
+naweiss@shell-web:~/tmp/problems/ec9da1496f80c8248197ba564097cebb$ /problems/ec9da1496f80c8248197ba564097cebb/justno
+Oh. Well the auth file doesn't say no anymore so... Here's the flag: e4cec8fdf76a931b03ad7ef026103d43
+
+
+I created another auth file containing "Yes".
+Then i ran justno from the new directory i created (with the auth file containing "Yes").

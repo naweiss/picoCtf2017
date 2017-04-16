@@ -1,0 +1,26 @@
+Open wireshark.
+In the menu: File->Export Objects->Http.
+This will export every page and image from the stream.
+
+Note: If the page is shown more then once in the stream it will export it multiple times.
+	  To avoid that use this unix command:
+		 ls | grep ")" | awk '{print "rm ",$0}' | sed 's/(/\\(/g' |  sed 's/)/\\)/g' | sh
+
+All the images are broken and In addition the logo and 4 other images are note exported.
+
+Use the follwing filter to watch all the http GET request:
+http.request.method == "GET"
+
+And this one for the missing 4 pictures (look in the folder secret):
+http.request.method == "GET" and http.request.full_uri contains "secret"
+
+After you have the 4 pics you just need to make them one big pic (look in the folder flag).
+In doing so you will find the flag:
+953c5041c35bfebdf8625c3d517daa65
+
+Note: To download or fix pics by hand, do the following:
+Right cilck on http Get request.
+In the menu pick: Follow-> TCP stream.
+Then in the new window change "show saved data as" to Raw.
+Copy the data (Starts in the third blue row) and make file out of it.
+(You can use http://tomeko.net/online_tools/hex_to_file.php?lang=en to do so)

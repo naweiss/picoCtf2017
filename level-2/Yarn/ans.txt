@@ -1,0 +1,30 @@
+Using:
+strings yarn
+
+Gives you every null terminated string.
+But some short ones are missing.
+
+So by using:
+strings -n2 yarn
+
+You can find string in length grater then 2.
+
+For example:
+D$
+D$4
+D$
+[^_]
+Sub
+mit
+_me
+_fo
+r_I
+_am
+_th
+e_f
+lag
+;(
+zR
+
+So the flag is:
+Submit_me_for_I_am_the_flag

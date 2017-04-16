@@ -1,0 +1,2 @@
+The file is in javascript.
+Use the console to find the flag.

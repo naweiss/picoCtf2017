@@ -1,0 +1,7 @@
+You can use QtSpim to run and debug the program.
+I translated mips.txt to:
+- mips.asm which is in assamble-humen language
+- mips.c which contanis mips.txt as doMain
+	and brute force in the main
+
+the flag is: 0xaf51bf5e

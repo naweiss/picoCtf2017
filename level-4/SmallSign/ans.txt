@@ -1,0 +1,9 @@
+I used ans.py to find challange with prime factors all below 700.
+(Because i had time restrictions)
+Then i used the fact that:
+- s1 is the sign of m1
+- s2 is the sign of m2
+So (s1*s2)mod N must be the sign of m1*m2.
+
+Which means i had to sign all its factors and multiply them all.
+And i found the flag (6298123dbccaf021eed3c55c79a806a3)

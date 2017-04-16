@@ -1,0 +1,10 @@
+In node.js servers there is file named package.json.
+You can use it to find the files on the server.
+
+If you play the game you find room in the last floor (room.png).
+The room has maze in it with block that stops you from passing (red X).
+The room also have an enemy the tries to catch you.
+
+By walking diagonally you can make him go into the maze and take the flag for you...
+[Walk like in path.jpg to leed him to the forbidden place in the maze]
+[Walk like in path2.jpg to leed him to the flag]

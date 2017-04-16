@@ -1,0 +1,18 @@
+the code is equals to:
+
+count = ?????
+sum = 0
+CONST = 0x5
+while count > 0:
+    sum += CONST
+	count--
+
+if sum == 0x65c7:
+    print "GOOD"
+    return 1
+else:
+    print "BAD"
+    return 0
+
+So count must be:
+0x65c7/0x5 = 0x145B

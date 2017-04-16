@@ -1,0 +1,7 @@
+By looking on the packets you can find pack with POST method.
+Inside of it there are the login details, when the password is in base64,
+
+
+OFBGRW8wdHRIUQ== :base64
+
+8PFEo0ttHQ

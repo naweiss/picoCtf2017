@@ -1,0 +1,13 @@
+In "client.js.download" change:
+
+function validate(pword){
+  //TODO: Implement me
+  return false;
+}
+
+to:
+
+function validate(pword){
+  //TODO: Implement me
+  return true;
+}

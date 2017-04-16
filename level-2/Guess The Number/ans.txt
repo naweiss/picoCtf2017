@@ -1,0 +1,11 @@
+You need to give a number that when shifted right 4 times (divided by 16),
+	will give you the address of win (0x0804852b)
+	
+0x0804852b<<4 = 0x804852B0 = 2152223408
+
+But, it is too big for int number.
+So you must use negative number: 
+0x0FFFFFFF-0x0804852b = 0x07FB7AD4
+0x07FB7AD4 << 4 = 0x7FB7AD40
+
+The address is: -0x7FB7AD40 = -2142743872

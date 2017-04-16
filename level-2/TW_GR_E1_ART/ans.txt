@@ -1,0 +1,8 @@
+In node.js servers there is file named package.json.
+You can use it to find the files on the server.
+
+If you play the game you find room in the last floor (room.jpeg).
+The room full of flags and you need to find the right one...
+
+By looking in the files you find that it located in (3,7).
+[Look in crack.js]

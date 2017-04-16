@@ -1,0 +1,1 @@
+python -c "print '59c51289ace9cdd4004afa54d297d310'.decode('hex')" | ./hex2raw

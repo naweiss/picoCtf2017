@@ -1,0 +1,23 @@
+You need to extract marlowe-1.0.tar.gz
+The type:
+cd marlowe-1.0
+make
+
+To install.
+
+To convert spl file to c, use:
+/spl/bin/spl2c < name.spl > name.c
+
+There are 3 version of the c code compiled.
+The 3rd is with debugging enabled.
+(To do so add:
+#define DEBUG 1
+at the start of libspl.c
+and replace every stderr with stdout)
+
+trace.txt is the output of the program given the input:
+a\n
+a\n
+ = [space]
+ 
+The program waits for the space as the end sign.

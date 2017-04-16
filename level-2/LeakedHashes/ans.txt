@@ -1,0 +1,110 @@
+use:
+https://hashkiller.co.uk/md5-decrypter.aspx
+to find the passwords
+
+for example:
+sharell:e9e39bbf56f17b4b9ea35945fc7aa015 => s1m14
+
+naweiss@NADAV:/mnt/c/Users/nadav$ nc shell2017.picoctf.com 30767
+enter username:
+sharell
+sharell's password:s1m14
+welcome to shady file server. would you like to access the cat ascii art database? y/n
+y
+
+     /\_/\
+    ( o o )
+  G-==_Y_==-M
+      `-'
+
+  /\ /\
+  (O o)
+=(: ^ :)=
+  '*v*'
+
+ |\_/|
+ (. .)
+  =w= (\
+ / ^ \//
+(|| ||)
+,""_""_ .
+
+     /\_/\
+    ( o o )
+   -==_Y_==-
+      `-'
+    /\**/\
+   ( o_o  )_)
+   ,(u  u  ,),
+  {}{}{}{}{}{}
+
+  /\_/\
+ ( o.o )
+  > ^ <
+
+       /\_/\
+  /\  / o o \
+ //\ \~(*)~/
+ `  \/   ^ /
+    | \|| ||
+    \ '|| ||
+     \)()-())
+
+   A_A
+  (-.-)
+   |-|
+  /   \
+ |     |  __
+ |  || | |  \___
+ \_||_/_/
+
+     /\__/\
+    /`    '\
+  === 0  0 ===
+    \  --  /    - flag is 073983e70c4fa6c41215007b9e723c50
+
+   /        \
+  /          \
+ |            |
+  \  ||  ||  /
+   \_oo__oo_/#######o
+
+  /\___/\
+ ( o   o )
+ (  =^=  )
+ (        )
+ (         )
+ (          )))))))))))
+
+ /\ /\
+ (O o)
+=(:^:)=
+   U
+
+    _,,/|
+    \o o'
+    =_~_=
+    /   \ (\
+   (////_)//
+   ~~~
+
+   /\     /\
+  {  `---'  }
+  {  O   O  }
+~~|~   V   ~|~~
+   \  \|/  /
+    `-----'__
+    /     \  `^\_
+   {       }\ |\_\_   W
+   |  \_/  |/ /  \_\_( )
+    \__/  /(_E     \__/
+      (  /
+       MM
+
+              ("`-''-/").___..--''"`-._
+               `6_ 6  )   `-.  (     ).`-.__.`)
+               (_Y_.)'  ._   )  `._ `. ``-..-'
+             _..`--'_..-_/  /--'_.' ,'
+           (il),-''  (li),'  ((!.-'
+
+from http://user.xmission.com/~emailbox/ascii_cats.htm

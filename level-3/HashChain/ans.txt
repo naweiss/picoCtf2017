@@ -1,0 +1,44 @@
+Using reg.py yu can register:
+
+naweiss@NADAV:~/c_codes$ nc shell2017.picoctf.com 58801
+
+*******************************************
+***            FlagKeeper 1.1           ***
+*  now with HASHCHAIN AUTHENTICATION! XD  *
+*******************************************
+
+Would you like to register(r) or get flag(f)?
+
+r/f?
+
+r
+Hello new user! Your ID is now 6161 and your assigned hashchain seed is 5bf73bc6c6e6775d472621264309a88b
+Please validate your new ID by sending the hash before this one in your hashchain (it will hash to the one I give you):
+416d8d8044b28942b715f56882ef8551
+
+903e37d239f56c51239ccc1d3058bb6e
+Yep! That's it! You're validated
+
+You can see that the seed is md5 of user number (md5(6161) = "5bf73bc6c6e6775d472621264309a88b")
+
+We can use this information to crack the flag.
+(use the md5 of user-number as seed and the token)
+
+naweiss@NADAV:~$ nc shell2017.picoctf.com 58801
+
+*******************************************
+***            FlagKeeper 1.1           ***
+*  now with HASHCHAIN AUTHENTICATION! XD  *
+*******************************************
+
+Would you like to register(r) or get flag(f)?
+
+r/f?
+
+f
+This flag only for user 4269
+Please authenticate as user 4269
+3a0129cfe57632fc13f2be833a37892c
+Next token?
+1aeb311c51c14f8bd8d1b92aca78504b
+Hello user 4269! Here's the flag: 9494f4171092452602fa545ab927e99e

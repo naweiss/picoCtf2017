@@ -1,0 +1,3 @@
+ans is 0x134
+4 pushes and sun of 0x124
+move the sp 0x134 "down"

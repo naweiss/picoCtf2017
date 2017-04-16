@@ -1,0 +1,2 @@
+Use hex-editor and search for "flag"
+Or use some tool to see EXIF (the flag is a comment)

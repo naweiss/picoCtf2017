@@ -1,0 +1,15 @@
+You need to generate public and private keys. using:
+ssh-keygen -t rsa
+(Dont put password and etc.)
+
+This will create pair: id_rsa(private key)  id_rsa.pub(public key)
+
+Then you need to do the follwing on the web-shell:
+mkdir .ssh
+cd .ssh/
+touch authorized_keys
+
+Then you copy the content of "id_rsa.pub" to the file authorized_keys.
+
+This allow you to login remotely to the server using:
+ssh username@site_url
