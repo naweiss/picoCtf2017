@@ -1,4 +1,12 @@
-The first thing we have to notice is that e and dp are modular inverses of each other mod (p - 1). Because of this, if we take any number a, a^(e * dp) ≡ a mod p. This cracks the entire problem for us, since if we subtract from both sides, we're left with a^(e * dp) - a ≡ 0 mod p, making a^(e * dp) - a a multiple of p. Now, if we take the GCD of N and a^(e * dp) - a, we're at a very small likelyhood of getting anything other than p. Then, if we just divide by p, we get q, and we can calculate d and decrypt the message~
+The first thing we have to notice is that e and dp are modular inverses of - each other mod (p - 1).
+Because of this, if we take any number a, a^(e * dp) ≡ a mod p.
+
+This cracks the entire problem for us, since if we subtract 'a' from both sides.
+We're left with a^(e * dp) - a ≡ 0 mod p.
+Making a^(e * dp) - a a multiple of p.
+
+Now, if we take the GCD of N and a^(e * dp) - a, we're at a very small likelihood of getting anything other than p.
+Then, if we just divide by p, we get q, and we can calculate d and decrypt the message
 
 The flag is:
 flag{wow_leaking_dp_breaks_rsa?_47689841281}

